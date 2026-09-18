@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades sobre Comida</title>
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Fundo animado com comidas caindo -->
+    <div class="background-animation">
+        <span>🍕</span><span>🍔</span><span>🍣</span><span>🍎</span><span>🌮</span>
+        <span>🍜</span><span>🍩</span><span>🍉</span><span>🍟</span><span>🍰</span>
+    </div>
+
+    <header>
+        <h1>Delícias do Mundo</h1>
+        <p>Um site simples para aprender mais sobre culinária global.</p>
+    </header>
+
+    <main>
+        <section class="topico">
+            <h2>1. Culinária Italiana</h2>
+            <p>Famosa mundialmente por suas massas artesanais, molhos à base de tomate fresco e, claro, a tradicional pizza napolitana.</p>
+        </section>
+
+        <section class="topico">
+            <h2>2. Culinária Japonesa</h2>
+            <p>Destaca-se pelo uso de frutos do mar frescos, arroz temperado, técnicas precisas de corte e pratos emblemáticos como sushi e sashimi.</p>
+        </section>
+
+        <section class="topico">
+            <h2>3. Culinária Brasileira</h2>
+            <p>Conhecida por sua enorme diversidade e misturas culturais, tendo a feijoada, o churrasco e os temperos tropicais como grandes destaques.</p>
+        </section>
+
+        <!-- Seção do Vídeo -->
+        <section class="topico video-section">
+            <h2>Vídeo em Destaque: Cozinha na Natureza</h2>
+            <p>Assista ao preparo incrível de bifes com manteiga de alho e batatas na fogueira:</p>
+            <div class="video-container">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube-nocookie.com/embed/05f8sG4OhZs" 
+                    title="Garlic Butter Steaks and Campfire Potatoes Outdoors" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Meu Primeiro Site</p>
+    </footer>
+
+</body>
+</html>
